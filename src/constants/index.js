@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  clinispots,
 } from "../assets";
 
 export const navLinks = [
@@ -116,16 +117,16 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Mern Stack Developer",
+    company_name: "Clinispots",
+    icon: clinispots,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "June 2024 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed reusable UI components with React.js to improve code maintainability and efficiency.",
+      "Utilized Git for version control, managing branches, and collaborating effectively with other team members.",
+      "Optimized web application performance by minimizing bundle size and improving rendering speed using React best practices.",
+      "Resolved merge conflicts and conducted code reviews in Git to maintain code quality and consistency across the project.",
     ],
   },
   {
