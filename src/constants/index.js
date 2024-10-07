@@ -199,25 +199,29 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Yelp Camp",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Yelpcamp is a website that allows users to create and review campgrounds. Users must have an account to create or review a campground. using Node.js, Express, MongoDB, Bootstrap, and Passport.js.",
     tags: [
       {
-        name: "react",
+        name: "Html",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Bootstrap",
         color: "pink-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "red-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Priyanshuu7/YelpCamp",
   },
   {
     name: "Job IT",
