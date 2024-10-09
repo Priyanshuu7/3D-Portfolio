@@ -273,6 +273,14 @@ const projects = [
         name: "css",
         color: "pink-text-gradient",
       },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
