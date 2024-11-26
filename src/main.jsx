@@ -4,7 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 
 createRoot(document.getElementById("root")).render(
-  // React Strcitmode //
+  // React Strcitmode Strcitmode //
   <StrictMode>
     <App />
   </StrictMode>
