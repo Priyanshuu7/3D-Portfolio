@@ -41,24 +41,24 @@ export const navLinks = [
   },
 ];
 
-const services = [
-  {
-    title: "Mern Developer",
-    icon: web,
-  },
-  {
-    title: "C++ Developer",
-    icon: mobile,
-  },
-  {
-    title: "Tech Writer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
-];
+// const services = [
+//   {
+//     title: "Mern Developer",
+//     icon: web,
+//   },
+//   {
+//     title: "C++ Developer",
+//     icon: mobile,
+//   },
+//   {
+//     title: "Tech Writer",
+//     icon: backend,
+//   },
+//   {
+//     title: "Content Creator",
+//     icon: creator,
+//   },
+// // ];
 
 const technologies = [
   {
@@ -287,4 +287,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, projects };
+export {  technologies, experiences, projects };
