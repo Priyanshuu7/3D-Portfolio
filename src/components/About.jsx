@@ -12,7 +12,7 @@ const About = () => {
       </motion.div>
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className="mt-4 text-secondary text=[17px] w-full leading-[30px]"
+        className="mt-4 text-secondary text=[17px] w-full leading-[30px] text-justify"
       >
         I'm a skilled web developer with experience in JavaScript and expertise
         in frameworks like React, Node.js, and Three.js. I'm a quick learner and
@@ -20,6 +20,7 @@ const About = () => {
         user-friendly solutions that solve real-world problems. Let's work
         together to bring your ideas to life.
       </motion.p>
+      
     </>
   );
 };
