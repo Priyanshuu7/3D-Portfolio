@@ -76,10 +76,7 @@ const Tech = () => {
                             <Icon icon="skill-icons:mysql-dark" className="w-5 h-5" />
                             <span className="text-sm">MySQL</span>
                         </div>
-                        <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
-                            <Icon icon="skill-icons:firebase-dark" className="w-5 h-5" />
-                            <span className="text-sm">Firebase</span>
-                        </div>
+                      
                     </div>
                 </div>
 
@@ -107,10 +104,7 @@ const Tech = () => {
                             <Icon icon="skill-icons:vim-dark" className="w-5 h-5" />
                             <span className="text-sm">Vim</span>
                         </div>
-                        <div className="flex items-center gap-2.5 px-4 py-2 bg-background rounded-full hover:shadow-lg transition-shadow" style={{opacity: 1, transform: 'none'}}>
-                            <Icon icon="logos:canva" className="w-5 h-5" />
-                            <span className="text-sm">Canva</span>
-                        </div>
+                       
                     </div>
                 </div>
             </motion.div>
