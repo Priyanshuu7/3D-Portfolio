@@ -1,20 +1,7 @@
 import {
-  javascript,
-  typescript,
-  html,
-  css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
-  git,
-  figma,
-  docker,
   carrent,
   jobit,
   tripguide,
-  threejs,
   clinispots,
 } from "../assets";
 
