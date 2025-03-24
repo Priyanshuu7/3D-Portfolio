@@ -2,6 +2,7 @@ import React from 'react'
 import { motion } from 'framer-motion'
 import { textVariant } from '../utils/motion'
 import { SectionWrapper } from '../hoc'
+import { styles } from '../styles'
 
 
 function Contact() {
@@ -13,13 +14,15 @@ function Contact() {
                     <div class="space-y-8" style={{ opacity: 1, transform: "none" }}>
                         <div class="space-y-4">
                             <h2 class="text-4xl md:text-5xl font-light">Let's Connect</h2>
-                            <p class="text-xl md:text-2xl text-muted font-light">Have a project in mind or just want to chat?</p>
+                            {/* <h2 className={styles.sectionHeadText}>Let's Connect</h2> */}
+
+                            {/* <p class="text-xl md:text-2xl text-muted font-light">Have a project in mind or just want to chat?</p> */}
                         </div>
                         <div style={{ opacity: 1 }}>
                             <a
-                                href="mailto:hi@sarthakgaud.tech"
+                                href="mailto:rajakpriyanshu581@gmail.com"
                                 class="group inline-flex items-center gap-2 text-xl md:text-2xl relative">
-                                <span class="relative">hi@sarthakgaud.tech<span
+                                <span class="relative">rajakpriyanshu581@gmail.com<span
                                     class="absolute left-0 right-0 bottom-0 h-px bg-accent scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></span>
                                 </span>
                                 <span style={{ transform: "none" }}>
@@ -41,10 +44,10 @@ function Contact() {
                         </div>
                     </div>
                     <div class="space-y-8" style={{ opacity: 1, transform: "none" }}>
-                        <h3 class="text-xl text-muted">Find me on</h3>
+                        <h3 className={styles.sectionSubText}>Find me on</h3>
                         <div class="space-y-4">
                             <a
-                                href="https://linkedin.com/in/gaud"
+                                href="https://www.linkedin.com/in/priyanshurajak/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="group flex items-center justify-between p-4 rounded-xl bg-accent/5 hover:bg-accent/10 transition-colors relative overflow-hidden"
@@ -68,7 +71,7 @@ function Contact() {
                                     </svg>
                                     <div>
                                         <p class="text-sm text-muted">LinkedIn</p>
-                                        <p>/in/gaud</p>
+                                        <p>/in/priyanshurajak</p>
                                     </div>
                                 </div>
                                 <span
@@ -90,7 +93,7 @@ function Contact() {
                                 </span>
                             </a>
                             <a
-                                href="https://twitter.com/iminoaruu"
+                                href="https://x.com/priyanshu_15356"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="group flex items-center justify-between p-4 rounded-xl bg-accent/5 hover:bg-accent/10 transition-colors relative overflow-hidden"
@@ -114,7 +117,7 @@ function Contact() {
                                     </svg>
                                     <div>
                                         <p class="text-sm text-muted">Twitter</p>
-                                        <p>@iminoaruu</p>
+                                        <p>@priyanshu_15356</p>
                                     </div>
                                 </div>
                                 <span
@@ -136,7 +139,7 @@ function Contact() {
                                 </span>
                             </a>
                             <a
-                                href="https://github.com/iminoaru"
+                                href="https://github.com/Priyanshuu7"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 class="group flex items-center justify-between p-4 rounded-xl bg-accent/5 hover:bg-accent/10 transition-colors relative overflow-hidden"
@@ -160,7 +163,7 @@ function Contact() {
                                     </svg>
                                     <div>
                                         <p class="text-sm text-muted">GitHub</p>
-                                        <p>/iminoaru</p>
+                                        <p>/Priyanshuu7</p>
                                     </div>
                                 </div>
                                 <span

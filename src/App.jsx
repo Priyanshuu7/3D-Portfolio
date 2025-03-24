@@ -14,15 +14,13 @@ const App = () => {
     return (
         <BrowserRouter>
             <div className="relative z-0 bg-primary">
-                {/* <div className="bg-no-repeat bg-center"> */}
-                    <Navbar/>
-                    <Hero/>
-                {/* </div> */}
+                <Navbar/>
+                <Hero/>
                 <About/>
                 <Tech/>
                 <Works/>
                 <Experience/>
-                <div className="relative z-0">
+                <div className="relative z-0 bg-primary">
                     <Contact/>
                 </div>
             </div>
