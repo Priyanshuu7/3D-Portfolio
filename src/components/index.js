@@ -1,7 +1,7 @@
 import {
   EarthCanvas,
   BallCanvas,
-  StarsCanvas,
+
 } from "./canvas";
 import Hero from "./Hero";
 import Navbar from "./Navbar";
@@ -23,5 +23,4 @@ export {
   Contact,
   EarthCanvas,
   BallCanvas,
-  StarsCanvas,
 };
